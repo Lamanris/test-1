@@ -1,0 +1,59 @@
+@media (max-width: 1200px) {
+    .col-4 {
+        width: 50%;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 765px) {
+    .col-4 {
+        width: 100%;
+    }
+    .card {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-list {
+        margin-top: 25px;
+    }
+    .sale {
+        width: 68px;
+        height: 34px;
+        left: 30px;
+    }
+    .like {
+        right: 26px;
+    }
+    .like svg {
+        max-width: 40px;
+    }
+    .card-container {
+        padding: 19px;
+    }
+    .card__title {
+        font-size: 22px;
+    }
+    .card-info {
+        margin-top: 16px;
+    }
+    .card-info__decLine {
+        margin-right: 10px;
+    }
+    .card__text {
+        font-size: 11px;
+    }
+    .card__text-title {
+        font-size: 15px;
+    }
+    .card-info__age {
+        margin-right: 20px;
+    }
+    .card__price {
+        font-size: 22px;
+        margin-top: 18px;
+    }
+}
