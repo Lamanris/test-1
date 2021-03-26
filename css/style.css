@@ -63,19 +63,21 @@ body {
     align-items: center;
 }
 
+.buy-btn.active {
+    background: #1F2021;
+}
+
 .like {
     position: absolute;
     top: 34px;
     right: 32px;
     transition: 0.6s;
     cursor: pointer;
-}
-
-.card:hover .like svg  {
     opacity: 0.5;
 }
-.card:hover .buy-btn  {
-    background: #1F2021;
+
+.like.active {
+    opacity: 1;
 }
 
 .card__img img {
